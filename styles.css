@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #6C2D2C;
+}
+
+#welcome-section {
+    background-color: #42313A;
+    height: 100vh;
+}
+
+.portfolio-text {
+    color: #9F4636;
+    padding-bottom: 389px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-heading {
+    color: #fff;
+    padding-top: 386px;
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+
+@media(max-width: 576px) {
+.portfolio-text {
+    color: #F1DCC9;
+    /* padding-bottom: 100px; */
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.portfolio-heading {
+    color: #F1DCC9;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    margin-left: 40px;
+}
+#welcome-section {
+    background-color: #42313A;
+    height: 50vh;
+}
+}
