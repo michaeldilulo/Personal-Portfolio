@@ -60,6 +60,11 @@ ul {
     object-fit: cover;
 }
 
+.portfolio-projects-button {
+    background-color: #42313A;
+    color: #fff;
+}
+
 @media(max-width: 576px) {
 .portfolio-text {
     color: #F1DCC9;
