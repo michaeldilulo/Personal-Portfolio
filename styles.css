@@ -88,9 +88,30 @@ ul {
     justify-content: space-evenly;
 }
 
-/* .portfolio-footer-icons {
-    padding-bottom: 200px;
-} */
+.card-text a {
+    text-decoration: none;
+}
+
+a.text-light.portfolio-project-small-links {
+    text-decoration: none;
+    position: relative;
+    bottom: 0;
+    transition: bottom ease 0.3s;
+}
+
+a.text-light.portfolio-project-small-links:hover {
+    bottom: -10px;
+}
+
+.btn.btn-lg:hover {
+    background-color: #6C2D2C;
+    color: #fff;
+}
+
+a.nav-link:hover {
+    background-color: #9F4636;
+    border-radius: 5px;
+}
 
 @media(max-width: 576px) {
 .portfolio-text {
